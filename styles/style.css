@@ -1,0 +1,94 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrap {
+  text-align: center;
+  margin: 30px auto;
+  width: 940px;
+}
+
+.header {
+  text-transform: uppercase;
+}
+
+.title {
+  color: #898f99;
+}
+
+h1 {
+  color: #0ec8cb;
+  font-size: 48px;
+}
+
+.description {
+  color: #999999;
+}
+
+.box-section {
+  margin-top: 100px;
+  
+}
+
+.box {
+  height: 420px;
+  padding: 50px 30px 100px;
+  border: 1px solid #ececec;
+  background-color: rgb(247, 247, 247);
+}
+
+.box-image {
+  height: 70px;
+}
+
+.box-image-1 {
+  background: url('../images/Anchor.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box-image-2 {
+  background: url('../images/Diamond.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box-image-3 {
+  background: url('../images/Eyeglasses.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box-image-4 {
+  background: url('../images/Monitor.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box-title {
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
+.box-text {
+  font-size: 14px;
+  color: #777777;
+  margin: 0;
+}
+
+.box:hover {
+  color: #fff;
+  background-color: #0ec8cb;
+}
+
+.box:hover .box-text {
+  color: #fff;
+}
+.box-1:hover > .box-image-1 {
+  background-image: url('../images/Anchor_hover.png');
+} 
+.box-2:hover > .box-image-2 {
+  background-image: url('../images/Diamond_hover.png');
+} 
+.box-3:hover > .box-image-3 {
+  background-image: url('../images/Eyeglasses_hover.png');
+} 
+.box-4:hover > .box-image-4 {
+  background-image: url('../images/Monitor_hover.png');
+} 
